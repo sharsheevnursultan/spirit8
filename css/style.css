@@ -1,0 +1,689 @@
+.myheader {
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    z-index: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.list-items {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.list-items:last-child {
+    margin-right: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+#mysection {
+    display: flex;
+    height: 100vh;
+    background: #111111;
+
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 44px;
+    background: url("https://1920x1080hdwallpapers.com/image/201508/games/1908/kirat-mountain-far-cry-4-himalaya-alpinist.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+#mysection:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(51, 51, 51, 1);
+    background: -moz-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(51, 51, 51, 1)), color-stop(50%, rgba(48, 48, 48, 0.94)), color-stop(51%, rgba(46, 46, 46, 0.93)), color-stop(100%, rgba(56, 56, 56, 0.42)));
+    background: -webkit-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -o-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -ms-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#383838', GradientType=0);
+
+}
+
+.list-item {
+    font-size: 14px;
+    margin-right: 34px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.list-item a {
+    position: relative;
+}
+
+.list-item:hover a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: #fcac45;
+    height: 3px;
+    bottom: -10px;
+    opacity: 0.2%;
+    float: right;
+}
+
+.list-item:hover a:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    background: grey;
+    height: 3px;
+    bottom: -10px;
+    left: 0px;
+}
+
+.header_content {
+    z-index: 9;
+    margin: auto;
+}
+
+.header_title {
+    color: #777777;
+    font-weight: 300;
+
+}
+
+.mytextfirstpage {
+    font-size: 20px;
+    color: #b0b0b0;
+    font-weight: 400;
+}
+
+.header_title span {
+    font-weight: bold;
+    color: #fcac45;
+}
+
+.mytextfirstpage span {
+    font-weight: bold;
+    color: #b0b0b0;
+}
+
+.myarrow {
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #b0b0b0;
+    font-size: 24px;
+
+}
+
+.scroll {
+    padding: 16px 16px;
+    color: #fff;
+    border: 2px solid #b4b4b4;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all .5s;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10%;
+    width: 52px;
+    height: 52px;
+}
+
+a.fa.fa-arrow-down:hover {
+    background: #fcac45;
+    color: white;
+    border: 2px solid #fcac45;
+}
+#about{
+    padding: 80px 0;
+}
+.about-title h4{
+    font-family: "Open Sans", Calibri;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #636363;
+}
+.about-title h2{
+    font-family: "Open Sans", Arial;
+    font-size: 34px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+}
+.about-title h2:before{
+    content: "";
+    position: absolute;
+    width: 22%;
+    height: 3px;
+    background: #fcac45;
+    top: 50px;
+}
+
+.about-title h2 span{
+    font-weight: bold;
+}
+.about-intro{
+    font-family: "Open Sans", Arial;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6c6c6c;
+    padding-top: 10px;
+}
+.circles{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.about-list{
+    font-weight: 600;
+    font-size: larger;
+    color: #5a5a5a;
+}
+.about-list span{
+    font-style: italic;
+    font-weight: 400;
+    font-size: medium;
+    color: #5a5a5a;
+}
+.about-list li{
+    padding-top: 8px;
+}
+.about-list li:last-child{
+    padding-bottom: 40px;
+}
+
+.about-btn{
+    border-radius: 3px;
+    padding: 10px 12px 10px 20px;
+    border: 1px solid #7f7f7f;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.about-btn:hover{
+    border: 1px solid #fcac45;
+    background: #fcac45;
+    transition: .5s;
+}
+.btn-icon{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#team {
+    padding: 80px 0;
+    position: relative;
+    background: url("https://www.spaceist.co.uk/wp-content/uploads/virtuemart/product/spaceist-45-grey-height-adjustable-office-desks-700x365.jpg")no-repeat ;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+#work{
+    padding: 80px 0;
+    position: relative;
+    color: black;
+    text-align: center;
+}
+#team img{
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.team-content, .work-content, .form-content{
+    position: relative;
+    z-index: 1;
+
+}
+.team-content:before, .services-content:before, .clients-content:before, .work-content:before, .testimonials-content:before, .form-content:before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #fcac45;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+ }
+.team-content:after, .services-content:after, .clients-content:after,.work-content:after, .testimonials-content:after, .form-content:after{
+    content: "";
+    width: 67px;
+    height: 3px;
+    background: #b37b33;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.section-title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-jason{
+    padding-top: 120px;
+}
+#team:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(51, 51, 51, 1);
+    background: -moz-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(51, 51, 51, 1)), color-stop(50%, rgba(48, 48, 48, 0.94)), color-stop(51%, rgba(46, 46, 46, 0.93)), color-stop(100%, rgba(56, 56, 56, 0.42)));
+    background: -webkit-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -o-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: -ms-linear-gradient(top, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 1) 0%, rgba(48, 48, 48, 0.94) 50%, rgba(46, 46, 46, 0.93) 51%, rgba(56, 56, 56, 0.42) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#383838', GradientType=0);
+}
+.meet{
+    font-size: 44px;
+    font-weight: lighter;
+}
+.our-team{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.caption h3{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.caption p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.knife-designer{
+    font-size: 16px;
+    font-weight: 500;
+}
+#services{
+    padding: 80px 0;
+    position: relative;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+.services-content{
+    position: relative;
+}
+.services-p{
+    padding-top: 90px;
+    font-size: 16px;
+    font-style: italic;
+    color: #6c6c6c;
+    text-align: center;
+}
+.section-services{
+    padding-top: 100px;
+}
+.services{
+    text-align: center;
+}
+.services h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.services-img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+.yellow-circle{
+    width: 128px;
+    height: 128px;
+}
+.fa-desktop, .fa-bullhorn,.fa-camera{
+    padding: 30px;
+    font-size: 50px;
+    border: 6px solid #fcac45;
+    border-radius: 50%;
+
+}
+.fa-mobile-alt{
+    padding: 30px 40px;
+    font-size: 50px;
+    border: 6px solid #fcac45;
+    border-radius: 50%;
+
+}
+.clients-content{
+    text-align: center;
+    position: relative;
+
+}
+#clients{
+    background: black;
+    padding: 80px 0;
+    color: white;
+}
+.brands{
+    margin: auto;
+}
+.clients-names{
+    padding-top: 145px;
+
+}
+.work-content{
+    text-align: center;
+    position: relative;
+
+}
+.ourwork-slider{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.ourwork-table{
+    position: absolute;
+    bottom: -250px;
+    width: 100%;
+    height: 100%;
+    background: #222222;
+    transition: all .4s;
+    color: white;
+    font-size: 30px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+.ourwork-slider:hover .ourwork-table{
+    bottom: 0;
+}
+.trend{
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.fa-plus{
+    margin-top: 30px;
+    padding: 7px 9px;
+    color: #fcac45;
+    border: 2px solid #fcac45;
+    border-radius: 50%;
+}
+.fa-plus:hover{
+    color: black;
+    background: #fcac45;
+}
+.ourwork-nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    font-size: 18px;
+}
+.ourwork-logo{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ourwork-list-items {
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+.ourwork-list-item {
+    font-weight: 500;
+    color: #898989;
+    text-transform: none;
+    font-size: 18px;
+}
+span.line{
+    width: 1px;
+    height: 15px;
+    background: #6c6c6c;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.ourwork-list-item:first-child{
+    border-left: none;
+}
+.ourwork-list-item:hover{
+    color: black;
+}
+.ourwork-nav{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 110px;
+}
+#testimonials{
+    background: black;
+    color: white;
+    height: 100vh;
+    padding: 80px 0;
+    position: relative;
+    text-align: center;
+}
+.testimonials-content{
+    position: relative;
+}
+.testimonials-p{
+    margin-top: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.testimonials-p2{
+    font-size: 18px;
+}
+.testimonials-p2 span{
+    font-weight: 600;
+}
+#work img{
+    width: 100%;
+    height: auto;
+}
+.myform{
+    padding-top: 120px;
+    position: relative;
+}
+.mytextarea{
+    padding-top: 50px;
+}
+.formarea{
+    text-align: left;
+    width: 100%;
+}
+#form{
+    padding: 80px 0;
+    position: relative;
+    color: black;
+}
+.redsnow{
+    color: red;
+    font-size: 24px;
+}
+.submit-btn{
+    float: right;
+    background: #fcac45;
+    color: white;
+    font-weight: 600;
+    padding: 6px 50px;
+    border: none;
+    margin-top: 30px;
+
+}
+.submit-btn:hover{
+    background: black;
+    color: #fcac45;
+}
+.end-ul{
+    display: inline-flex;
+    float: right;
+}
+#end{
+    background: black;
+    color: white;
+}
+.fa-facebook-f, .fa-twitter, .fa-basketball-ball{
+    border: 1px solid #b2b2b2;
+    border-radius: 50%;
+    color: #b2b2b2;
+    padding: 4px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.fa-facebook-f:first-child{
+    padding: 4px 8px;
+}
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-linkedin-in:hover, .fa-basketball-ball:hover{
+    color: black;
+    background: #fcac45;
+    border: 1px solid #fcac45;
+}
+.fa-google-plus-g{
+    border: 1px solid #b2b2b2;
+    border-radius: 50%;
+    color: #b2b2b2;
+    padding: 4px 2px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.fa-linkedin-in{
+    border: 1px solid #b2b2b2;
+    border-radius: 50%;
+    color: #b2b2b2;
+    padding: 4px 6px;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.end-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.end-div span{
+    font-size: 12px;
+    color: #b2b2b2;
+}
+.end-div span span{
+    font-weight: bold;
+}
+.item{
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    background: #0b2e13;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+    background: #ffffff;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fcac45;
+}
+.clients-padding-top{
+    padding: 15px;
+    display: inline-flex;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 100px;
+}
+.carousel-jason{
+    display: flex;
+}
+.all-clients{
+    padding-top: 145px;
+}
+
+.mobile{
+    visibility: hidden;
+    float: right;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    background: #fcac45;
+    border-radius: 25%;
+    top: 36px;
+    right: 6%;
+    z-index: 99999;
+}
+
+.m-line{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    top: 26px;
+    right: 13px;
+}
+.m-line:first-child{
+    top: 15px;
+}
+.m-line:last-child{
+    top: 37px;
+}
+.list-items.active .m-line:first-child{
+    transform: rotate(-315deg);
+    transition: 1s;
+    opacity: 1;
+    top: 26px;
+}
+.list-items.active .m-line{
+    transform: rotate(600deg);
+    transition: 1s;
+    opacity: 0;
+}
+.list-items.active .m-line:last-child{
+    transform: rotate(315deg);
+    transition: 1s;
+    opacity: 1;
+    top: 26px;
+}
+.my-mac{
+    width: 110%;
+}

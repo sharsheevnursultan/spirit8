@@ -1,0 +1,786 @@
+@media (min-width: 1281px) {
+    .brands {
+        margin-top: 20px;
+    }
+
+
+    /*
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+}
+
+@media (min-width: 1100px) {
+    #clients {
+        height: auto;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .brands {
+        margin-top: 20px;
+    }
+
+    .ourwork-table {
+        padding: 0;
+        bottom: -480px;
+    }
+
+
+    /*
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .list-items {
+        visibility: hidden;
+    }
+
+    .list-items.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vh;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-items.active .list-item {
+        margin-right: 0;
+        display: block;
+    }
+
+    .header_content {
+        z-index: 0;
+        margin: auto;
+    }
+
+    .mobile {
+        position: fixed;
+        top: 40px;
+        right: 5%;
+        visibility: visible;
+    }
+
+    .list-item {
+        visibility: hidden;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+
+    .mytextfirstpage {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .about-title h2:before {
+        top: 40px;
+        width: 22%;
+    }
+
+    .about-title h2 {
+        font-size: 20px;
+    }
+
+    .about-title h4 {
+        font-size: 15px;
+    }
+
+    .about-intro {
+        font-size: 15px;
+        font-weight: 400;
+        color: #6c6c6c;
+        padding-top: 10px;
+    }
+
+    .about-list span {
+        font-size: 14px;
+    }
+
+    .meet {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .our-team {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .ourwork-table {
+        padding: 0;
+
+    }
+
+    .fa-plus {
+        margin-top: 20px;
+    }
+
+    .team-content:before, .services-content:before, .clients-content:before, .work-content:before, .testimonials-content:before, .form-content:before {
+        top: 50px;
+    }
+
+    .team-content:after, .services-content:after, .clients-content:after, .work-content:after, .testimonials-content:after, .form-content:after {
+        top: 60px;
+
+    }
+
+    .section-jason {
+        padding-top: 50px;
+    }
+
+    .services-p {
+        padding-top: 40px;
+        font-size: 12px;
+    }
+
+    .section-services {
+        padding-top: 20px;
+    }
+
+    .caption p {
+        font-size: 12px;
+    }
+
+    .caption h3 {
+        font-size: 18px;
+    }
+
+    #clients {
+        height: 100vh;
+    }
+
+    .clients-names {
+        display: flex;
+        padding-top: 40px;
+        margin-top: 30px;
+    }
+
+    .clients-names:last-child {
+        margin-right: 0px;
+    }
+
+    .trend {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .website-design {
+        font-size: 10px;
+    }
+
+    .testimonials-p {
+        margin-top: 110px;
+        font-size: 15px;
+    }
+
+    .myform {
+        padding-top: 30px;
+    }
+
+    .brands {
+        margin-top: 20px;
+    }
+
+    .mytextarea {
+        padding-top: 15px;
+    }
+
+    #form {
+        padding: 80px 0 30px;
+    }
+
+    #end {
+        height: 20vh;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    .end-div {
+        padding-top: 20px;
+    }
+
+    .end-div span {
+        text-align: center;
+    }
+
+    .end-ul {
+        float: none;
+        margin-top: 10px;
+    }
+
+    #clients {
+        height: auto;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    .list-items.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+    }
+
+    .list-items.active .list-item {
+        background: black;
+        visibility: visible;
+        margin-right: 0;
+        width: 80%;
+        height: 10vh;
+        text-align: center;
+        top: 50px;
+        display: block;
+    }
+
+    .header_content {
+        z-index: 0;
+        margin: auto;
+    }
+
+
+
+    .team-content, .work-content, .form-content {
+        z-index: 0;
+    }
+
+    .owl-carousel {
+        z-index: 0;
+    }
+    .my-mac{
+        width: 100%;
+    }
+
+
+    /*
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .list-items {
+        visibility: hidden;
+    }
+
+    .list-items.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-items.active .list-item {
+        margin-right: 0;
+        display: block;
+    }
+
+    .header_content {
+        z-index: 0;
+        margin: auto;
+    }
+
+
+
+    .ourwork-nav {
+        display: inline;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .ourwork-list-items {
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .ourwork-list-item {
+        font-size: 14px;
+    }
+
+    .ourwork-logo {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    span.line {
+        height: 12px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    #clients {
+        height: auto;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+
+    .ourwork-table {
+        padding: 0;
+        bottom: -480px;
+    }
+
+    .mytextfirstpage {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .about-title h2:before {
+        top: 40px;
+        width: 22%;
+    }
+
+    .about-title h2 {
+        font-size: 20px;
+    }
+
+    .about-title h4 {
+        font-size: 15px;
+    }
+
+    .about-intro {
+        font-size: 15px;
+        font-weight: 400;
+        color: #6c6c6c;
+        padding-top: 10px;
+    }
+
+    .about-list span {
+        font-size: 14px;
+    }
+
+    .meet {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .our-team {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .team-content:before, .services-content:before, .clients-content:before, .work-content:before, .testimonials-content:before, .form-content:before {
+        top: 50px;
+    }
+
+    .team-content:after, .services-content:after, .clients-content:after, .work-content:after, .testimonials-content:after, .form-content:after {
+        top: 60px;
+
+    }
+
+    .section-jason {
+        padding-top: 50px;
+    }
+
+    .services-p {
+        padding-top: 40px;
+        font-size: 12px;
+    }
+
+    .section-services {
+        padding-top: 20px;
+    }
+
+    .caption p {
+        font-size: 12px;
+    }
+
+    .caption h3 {
+        font-size: 18px;
+    }
+
+    .clients-names {
+        display: inline-table;
+        padding-top: 40px;
+        margin-top: 30px;
+    }
+
+    .clients-names:last-child {
+        margin-right: -40px;
+    }
+
+    .testimonials-p {
+        margin-top: 110px;
+        font-size: 15px;
+    }
+
+    .myform {
+        padding-top: 30px;
+    }
+
+    .brands {
+        margin-top: 20px;
+    }
+
+    .mytextarea {
+        padding-top: 15px;
+    }
+
+    #form {
+        padding: 80px 0 30px;
+    }
+
+    #end {
+        height: 20vh;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    .end-div {
+        padding-top: 20px;
+    }
+
+    .end-div span {
+        text-align: center;
+    }
+
+    .end-ul {
+        float: none;
+        margin-top: 10px;
+    }
+
+    #mysection {
+        height: available;
+    }
+
+    .mobile {
+        visibility: visible;
+    }
+
+    .list-items.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+    }
+
+    .list-items.active .list-item {
+        margin-bottom: 20px;
+        margin-right: 0;
+        display: block;
+    }
+
+    .header_content {
+        z-index: 0;
+        margin: auto;
+    }
+
+    .team-content, .work-content, .form-content {
+        z-index: 0;
+    }
+
+    .owl-carousel {
+        z-index: 0;
+    }
+    .my-mac{
+        width: 100%;
+    }
+
+
+    /*
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .mobile {
+        visibility: visible;
+    }
+
+    .list-items {
+        visibility: hidden;
+    }
+
+    .list-item {
+        visibility: hidden;
+    }
+
+    .header_title {
+        font-size: 30px;
+    }
+
+    .ourwork-table {
+        bottom: -480px;
+    }
+
+    .mytextfirstpage {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .about-title h2:before {
+        top: 40px;
+        width: 22%;
+    }
+
+    .about-title h2 {
+        font-size: 20px;
+    }
+
+    .about-title h4 {
+        font-size: 15px;
+    }
+
+    .about-intro {
+        font-size: 15px;
+        font-weight: 400;
+        color: #6c6c6c;
+        padding-top: 10px;
+    }
+
+    .about-list span {
+        font-size: 14px;
+    }
+
+    .meet {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .our-team {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .team-content:before, .services-content:before, .clients-content:before, .work-content:before, .testimonials-content:before, .form-content:before {
+        top: 50px;
+    }
+
+    .team-content:after, .services-content:after, .clients-content:after, .work-content:after, .testimonials-content:after, .form-content:after {
+        top: 60px;
+
+    }
+
+    .section-jason {
+        padding-top: 50px;
+    }
+
+    .services-p {
+        padding-top: 40px;
+        font-size: 12px;
+    }
+
+    .section-services {
+        padding-top: 20px;
+    }
+
+    .caption p {
+        font-size: 12px;
+    }
+
+    .caption h3 {
+        font-size: 18px;
+    }
+
+    #clients {
+        height: auto;
+    }
+
+    .clients-names {
+        display: inline-table;
+        padding-top: 40px;
+        margin-top: 30px;
+    }
+
+    .clients-names:last-child {
+        margin-right: -40px;
+    }
+
+    .testimonials-p {
+        margin-top: 110px;
+        font-size: 13px;
+    }
+
+    .myform {
+        padding-top: 30px;
+    }
+
+    .brands {
+        margin-top: 20px;
+    }
+
+    .mytextarea {
+        padding-top: 15px;
+    }
+
+    #form {
+        padding: 80px 0 30px;
+    }
+
+    #end {
+        height: 20vh;
+    }
+
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    .end-div {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .end-div span {
+        text-align: center;
+    }
+
+    .end-ul {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .ourwork-nav {
+        display: inline;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .ourwork-list-items {
+        margin-bottom: 5px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .ourwork-list-item {
+        font-size: 14px;
+    }
+
+    .ourwork-logo {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    span.line {
+        height: 12px;
+    }
+
+    .all-clients {
+        padding-top: 25px;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 50px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    .circles {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 5px;
+    }
+
+    .about-list {
+        font-size: 15px;
+    }
+
+    #mysection {
+        height: available;
+    }
+
+    .list-items.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+    }
+
+    .list-items.active .list-item {
+        margin-bottom: 20px;
+        display: block;
+        visibility: visible;
+    }
+
+    .header_content {
+        z-index: 0;
+        margin: auto;
+    }
+
+    .team-content, .work-content, .form-content {
+        z-index: 0;
+    }
+
+    .owl-carousel {
+        z-index: 0;
+    }
+    .my-mac{
+        width: 100%;
+    }
+    .mobile{
+        right: 4%;
+    }
+}
+
+
