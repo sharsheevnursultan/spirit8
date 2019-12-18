@@ -285,7 +285,7 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
     .list-items {
-        visibility: hidden;
+        display: none;
     }
 
     .list-items.active {

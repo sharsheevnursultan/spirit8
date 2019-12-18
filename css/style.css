@@ -20,6 +20,7 @@ a, a:hover {
     display: flex;
     margin-bottom: 0;
     align-items: center;
+
 }
 
 .list-items:last-child {
@@ -70,6 +71,7 @@ li {
 }
 
 .list-item {
+    transition: .3s;
     font-size: 14px;
     margin-right: 34px;
 }
