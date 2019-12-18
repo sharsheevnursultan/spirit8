@@ -667,18 +667,18 @@ span.line{
 .m-line:last-child{
     top: 37px;
 }
-.list-items.active .m-line:first-child{
+.mobile.active .m-line:first-child{
     transform: rotate(-315deg);
     transition: 1s;
     opacity: 1;
     top: 26px;
 }
-.list-items.active .m-line{
+.mobile.active .m-line{
     transform: rotate(600deg);
     transition: 1s;
     opacity: 0;
 }
-.list-items.active .m-line:last-child{
+.mobile.active .m-line:last-child{
     transform: rotate(315deg);
     transition: 1s;
     opacity: 1;

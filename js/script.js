@@ -8,7 +8,7 @@ $("#testimonials-owl").owlCarousel({
     touchDrag: true,
     pullDrag: true,
     items: 1,
-    autoplaySpeed:1000,
+    autoplaySpeed: 1000,
 });
 $("#clients-owl").owlCarousel({
     loop: true,
@@ -20,7 +20,7 @@ $("#clients-owl").owlCarousel({
     touchDrag: true,
     pullDrag: true,
     items: 1,
-    autoplaySpeed:1000,
+    autoplaySpeed: 1000,
 });
 $("#team-owl").owlCarousel({
     loop: true,
@@ -31,24 +31,29 @@ $("#team-owl").owlCarousel({
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    autoplaySpeed:1000,
-    items:4,
+    autoplaySpeed: 1000,
+    items: 4,
     responsive: {
-        0:{
+        0: {
             items: 1
         },
-        480:{
+        480: {
             items: 3
         },
-        769:{
+        769: {
             items: 4
         }
     }
 });
 
 $('.mobile').on('click', function () {
+
     $('.list-items').toggleClass('active');
-})
+    if ($('.list-items').hasClass('active')) {
+        $('.mobile').toggleClass('active');
+    }
+});
 $('.list-item').on('click', function () {
     $('.list-items').removeClass('active');
-})
+    $('.mobile').removeClass('active');
+});
