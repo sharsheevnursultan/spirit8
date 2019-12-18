@@ -39,7 +39,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .list-items {
-        visibility: hidden;
+        display: none;
     }
 
     .list-items.active {
@@ -543,7 +543,7 @@
     }
 
     .list-items {
-        visibility: hidden;
+        display: none;
     }
 
     .list-item {
